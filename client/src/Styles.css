@@ -1,0 +1,20 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://t4.ftcdn.net/jpg/02/22/41/05/240_F_222410521_tTEgm1XKivPPx4Z7IPnZc7pxlThepiXZ.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: beige;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
