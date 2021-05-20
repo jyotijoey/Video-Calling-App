@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App";
 import './Styles.css';
+import { ContextProvider } from "./SocketContext"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <App />,
+  <ContextProvider>
+    <App />
+  </ContextProvider>
+    ,
   document.getElementById('root')
 );
 
